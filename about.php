@@ -5,8 +5,8 @@
         <title>About</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+    <?php include 'header.php'; ?>
     <body>
-        <header><img src="./images/Herb Logo Placeholder.png" alt="Herb" class="mainlogo"></header>
         <?php include 'navbar.php'; ?>
         <section class="about-section">
             <div class="about-container">

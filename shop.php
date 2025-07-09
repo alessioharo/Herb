@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Herb</title>
+        <title>About</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <?php include 'header.php'; ?>

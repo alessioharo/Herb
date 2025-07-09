@@ -10,7 +10,7 @@
         <?php include 'navbar.php'; ?>
         <footer>                    
             Website version 0.1<br>
-            Herb created by Alessio Haro
+            Herb written and created by Alessio Haro
         </footer>
     </body>
 </html>

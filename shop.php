@@ -7,6 +7,7 @@
     </head>
     <?php include 'header.php'; ?>
     <body>
+        <p>Our elves at hard at work making Herb merch. Check back soon!</p>
         <?php include 'navbar.php'; ?>
         <?php include 'footer.php'; ?>
     </body>

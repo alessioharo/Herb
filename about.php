@@ -18,6 +18,15 @@
                     </p>
                 </div>
             </div>
+            <div class="about-container">
+                <img src="./images/Adam About.jpg" alt="Adam frowning" class="aboutphotos">
+                <div class="about-text">
+                    <h2>Meet Adam</h2>
+                    <p>
+                        Adam is a red colored car with severe depression and anger issues, but you can’t blame him. He spends all of his time with Herb because he has no choice. Whether he’s with Herb or not, he’s always in his head, regretting life decisions and yearning for a connection with someone he can relate to. 
+                    </p>
+                </div>
+            </div>
         </section>
         <?php include "footer.php"; ?>
     </body>

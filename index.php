@@ -8,9 +8,6 @@
     <body>
         <header><img src="./images/Herb Logo Placeholder.png" alt="Herb" class="mainlogo"></header>
         <?php include 'navbar.php'; ?>
-        <footer>                    
-            Website version 0.1<br>
-            Herb written and created by Alessio Haro
-        </footer>
+        <?php include 'footer.php'; ?>
     </body>
 </html>

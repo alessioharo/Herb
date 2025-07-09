@@ -19,6 +19,6 @@
                 </div>
             </div>
         </section>
-        <p>Herb</p><br/>
+        <?php include "footer.php"; ?>
     </body>
 </html>

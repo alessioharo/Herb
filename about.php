@@ -7,12 +7,7 @@
     </head>
     <body>
         <header><img src="./images/Herb Logo Placeholder.png" alt="Herb" class="mainlogo"></header>
-        <nav> 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <?php include 'navbar.php'; ?>
         <section class="about-section">
             <div class="about-container">
                 <img src="./images/Herb About.jpg" alt="Herb smiling" class="aboutphotos">

@@ -13,13 +13,24 @@ footer {
 
 ul {
     text-align: center;
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #95FA32;
 }
 
 li {
     display: inline;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #65CC00;
 }
 
 .about-section {

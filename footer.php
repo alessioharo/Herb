@@ -1,4 +1,4 @@
 <footer>                    
-    Website version 0.1<br>
+    <a href= "mailto:herbgreencat@gmail.com">Contact Herb</a><br>
     Herb created by Alessio Haro
 </footer>

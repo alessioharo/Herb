@@ -5,8 +5,8 @@
         <title>Herb</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <?php include 'header.php'; ?>
     <body>
+        <?php include 'header.php'; ?>
         <?php include 'navbar.php'; ?>
         <?php include 'footer.php'; ?>
     </body>

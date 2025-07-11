@@ -5,10 +5,10 @@
         <title>About</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <?php include 'header.php'; ?>
     <body>
-        <p>Coming soon!</p>
+        <?php include 'header.php'; ?>
         <?php include 'navbar.php'; ?>
+        <p>Coming soon<br></P>
         <?php include 'footer.php'; ?>
     </body>
 </html>

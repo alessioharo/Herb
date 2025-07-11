@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8"/>
-        <title>About</title>
+        <title>Herb - About</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -23,7 +24,7 @@
                 <div class="about-text">
                     <h2>Meet Adam</h2>
                     <p>
-                        Adam is a red colored car with severe depression and anger issues, but you can’t blame him. He spends all of his time with Herb because he has no choice. Whether he’s with Herb or not, he’s always in his head, regretting life decisions and yearning for a connection with someone he can relate to. 
+                        Adam is a red colored cat with severe depression and anger issues, but you can’t blame him. He spends all of his time with Herb because he has no choice. Whether he’s with Herb or not, he’s always in his head, regretting life decisions and yearning for a connection with someone he can relate to. 
                     </p>
                 </div>
             </div>

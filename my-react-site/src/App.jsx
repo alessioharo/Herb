@@ -1,8 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Comics from './pages/Comics';
 import Shop from './pages/Shop';
 import About from './pages/About';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './pages/Home';
 <Route path="/" element={<Home />} />
 
 function App() {

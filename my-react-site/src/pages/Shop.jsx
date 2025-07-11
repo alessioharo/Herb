@@ -1,5 +1,9 @@
 function Shop() {
-  return <h1>Shop Page</h1>;
+  return (
+    <div>
+      <h1>Shop Page</h1>
+      <p>Browse Herb merchandise here.</p>
+    </div>
+  );
 }
-
 export default Shop;

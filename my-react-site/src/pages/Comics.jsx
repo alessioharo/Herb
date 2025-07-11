@@ -1,5 +1,9 @@
 function Comics() {
-  return <h1>Comics Page</h1>;
+  return (
+    <div>
+      <h1>Comics Page</h1>
+      <p>Welcome to the comics section.</p>
+    </div>
+  );
 }
-
 export default Comics;

@@ -16,7 +16,7 @@ function About() {
           <div className="about-text">
             <h2>Meet Herb</h2>
             <p>
-              Herb is a green-yellow colored cat with the mental sharpness of a five year old...
+              Herb has the mental sharpness of a five year old.
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ function About() {
           <div className="about-text">
             <h2>Meet Adam</h2>
             <p>
-              Adam is a red colored cat with severe depression and anger issues...
+              Adam has severe depression and anger issues.
             </p>
           </div>
         </div>

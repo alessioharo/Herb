@@ -1,9 +1,9 @@
 function Comics() {
   return (
-    <div>
+    <main>
       <h1>Comics Page</h1>
       <p>Welcome to the comics section.</p>
-    </div>
+    </main>
   );
 }
 export default Comics;

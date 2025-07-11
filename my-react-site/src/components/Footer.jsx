@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom';
+import '../styles.css';
+
 function Footer() {
     return (
-        <footer>
-            <a href= "mailto:herbgreencat@gmail.com">Contact Herb</a>
-            <p>Herb created by Alessio Haro</p>                   
-        </footer>
+        <main>
+            <footer>
+                <a href= "mailto:herbgreencat@gmail.com">Contact Herb</a>
+                <p>Herb created by Alessio Haro</p>                   
+            </footer>
+        </main>
     );
 }
 

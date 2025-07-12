@@ -3,15 +3,17 @@ import '../index.css';
 
 function Header() {
     return (
-        <header>
-            <Link to="/">
-                <img
-                    src="images/Herb Logo.png"
-                    alt="Herb"
-                    className="mainlogo"
-                />
-            </Link>
-        </header>
+        <main>
+            <header>
+                <Link to="/">
+                    <img
+                        src="images/Herb Logo.png"
+                        alt="Herb"
+                        className="mainlogo"
+                    />
+                </Link>
+            </header>
+        </main>
     );
 }
 

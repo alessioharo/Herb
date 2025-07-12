@@ -60,3 +60,7 @@ nav a {
 nav a:hover {
   background-color: var(--herb-dark-green);
 }
+
+nav a.active {
+  background-color: var(--herb-dark-green);
+}

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'; // keep this for nav links
-import '../index.css'; // if needed
+import { Link } from 'react-router-dom';
+import '../index.css';
 
 function Home() {
   return (

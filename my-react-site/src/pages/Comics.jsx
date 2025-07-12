@@ -1,3 +1,7 @@
+import { Link } from 'react-router-dom'; // keep this for nav links
+import '../index.css'; // if needed
+
+
 function Comics() {
   return (
     <main>

@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
 import Comics from './pages/Comics';
 import Shop from './pages/Shop';
 import About from './pages/About';
+
+<Route path="/" element={<Home />} />
+
+import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './pages/Home';
-<Route path="/" element={<Home />} />
 
 function App() {
   return (

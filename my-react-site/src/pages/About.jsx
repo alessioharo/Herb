@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'; // keep this for nav links
-import '../styles.css'; // if needed
+import '../index.css'; // if needed
 
 function About() {
   return (

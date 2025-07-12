@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom';
 import '../index.css';
 
-
 function Comics() {
   return (
     <main>
-      <h1>Comics Page</h1>
-      <p>Welcome to the comics section.</p>
+      <p>Comics - Coming soon.</p>
     </main>
   );
 }

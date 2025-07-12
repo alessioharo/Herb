@@ -4,8 +4,7 @@ import '../index.css';
 function Shop() {
   return (
     <main>
-      <h1>Shop Page</h1>
-      <p>Browse Herb merchandise here.</p>
+      <p>Shop - Coming soon.</p>
     </main>
   );
 }

@@ -7,7 +7,7 @@ function Header() {
             <header>
                 <Link to="/">
                     <img
-                        src="images/Herb Logo.svg"
+                        src="/images/Herb Logo.svg"
                         alt="Herb"
                         className="mainlogo"
                     />

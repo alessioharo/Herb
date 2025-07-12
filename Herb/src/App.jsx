@@ -18,6 +18,7 @@ function App() {
     <Header />
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/comics" element={<Comics />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />

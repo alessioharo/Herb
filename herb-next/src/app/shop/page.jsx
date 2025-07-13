@@ -1,3 +1,7 @@
-// ...existing code...
-import '../components/Footer.jsx';
-// ...existing code...
+export default function Shop() {
+  return (
+    <main>
+      <p>Shops - Coming soon.</p>
+    </main>
+  );
+}

@@ -1,3 +1,7 @@
-// ...existing code...
-import '../components/Footer.jsx';
-// ...existing code...
+export default function Comics() {
+  return (
+    <main>
+      <p>Comics - Coming soon.</p>
+    </main>
+  );
+}

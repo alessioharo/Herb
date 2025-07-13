@@ -1,26 +1,87 @@
 @import "tailwindcss";
+/* System Font */
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');*/
 
+/* Public variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --herb-green: #99EC4E;
+  --herb-dark-green: #73c225;
+  --herb-light-green: #EDFFDA;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--herb-light-green);
+}
+
+/* Main Styles */
+main {
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+}
+
+.mainlogo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: var(--herb-dark-green);
+    padding: 25px;
+}
+
+footer a,
+footer p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: var(--herb-green);
+    text-align: center
+}
+
+li {
+  display: inline;
+}
+
+/* Navigation Styles */
+
+nav {
+  width: 275px;
+  margin: 10px auto;
+  background-color: var(--herb-green);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 12pt;
+  border-radius: 25px;
+  padding: 12px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--herb-dark-green);
+}
+
+nav a.active {
+  background-color: var(--herb-dark-green);
 }

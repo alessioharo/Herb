@@ -1,22 +1,23 @@
-import { NavLink, useLocation } from 'react-router-dom';
-import '../index.css';
+"use client";
+import '../globals.css';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 function Navbar() {
-  const location = useLocation();
-  // Don't show active highlight on home page
-  const isHome = location.pathname === '/';
+  const pathname = usePathname();
+  const isHome = pathname === '/';
   return (
     <main>
       <nav>
         <ul>
           <li>
-            <NavLink to="/comics" className={({ isActive }) => isActive && !isHome ? 'active' : ''}>comics</NavLink>
+            <Link href="/comics" className={!isHome && pathname === '/comics' ? 'active' : ''}>comics</Link>
           </li>
           <li>
-            <NavLink to="/shop" className={({ isActive }) => isActive && !isHome ? 'active' : ''}>shop</NavLink>
+            <Link href="/shop" className={!isHome && pathname === '/shop' ? 'active' : ''}>shop</Link>
           </li>
           <li>
-            <NavLink to="/about" className={({ isActive }) => isActive && !isHome ? 'active' : ''}>about</NavLink>
+            <Link href="/about" className={!isHome && pathname === '/about' ? 'active' : ''}>about</Link>
           </li>
         </ul>
       </nav>

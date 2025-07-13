@@ -1,19 +1,19 @@
-import { Link } from 'react-router-dom';
-import '../index.css';
+"use client";
+import '../globals.css';
+import Link from 'next/link';
 
 function Header() {
     return (
-        <main>
-            <header>
-                <Link to="/">
-                    <img
-                        src="/images/Herb Logo.svg"
-                        alt="Herb"
-                        className="mainlogo"
-                    />
-                </Link>
-            </header>
-        </main>
+        <header>
+            <Link href="/">
+                <img
+                    src="/images/Herb Logo.svg"
+                    alt="Herb"
+                    className="mainlogo"
+                    style={{ cursor: 'pointer', display: 'block'}}
+                />
+            </Link>
+        </header>
     );
 }
 

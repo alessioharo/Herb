@@ -1,22 +1,21 @@
 @import "tailwindcss";
-/* System Font */
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');*/
 
-/* Public variables */
+/* Colors */
 :root {
   --herb-green: #99EC4E;
   --herb-dark-green: #73c225;
   --herb-light-green: #EDFFDA;
 }
 
+/* Background for entire website */
 body {
   background-color: var(--herb-light-green);
 }
 
-/* Main Styles */
+/* Main Styles - Text */
 main {
   font-family: 'Inter', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
   color: black;
 }
@@ -27,8 +26,8 @@ main {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 15.5px;
 }
 
 header {
@@ -38,6 +37,7 @@ header {
 footer {
     color: white;
     background-color: var(--herb-dark-green);
+    margin-top: 15.5px;
     padding: 25px;
 }
 
@@ -61,10 +61,12 @@ li {
 /* Navigation Styles */
 
 nav {
-  width: 275px;
+  width: 255px;
   margin: 10px auto;
   background-color: var(--herb-green);
   padding: 10px;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
   border-radius: 50px;
 }
 

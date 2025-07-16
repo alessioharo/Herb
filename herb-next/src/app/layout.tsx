@@ -17,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="Herb" />
       </head>
       <body>
         <main>

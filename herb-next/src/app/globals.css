@@ -7,7 +7,7 @@
   --herb-light-green: #EDFFDA;
 }
 
-/* Background for entire website */
+/* Website Background Styles */
 body {
   background-color: var(--herb-light-green);
 }
@@ -20,6 +20,7 @@ main {
   color: black;
 }
 
+/* Main Styles - Main Logo */
 .mainlogo {
     max-width: 250px;
     width: 100%;
@@ -30,23 +31,21 @@ main {
     margin-bottom: 15.5px;
 }
 
-header {
-    text-align: center;
-}
-
+/* Header and Footer Styles */
+header { text-align: center; }
 footer {
     color: white;
     background-color: var(--herb-dark-green);
     margin-top: 15.5px;
     padding: 25px;
 }
-
 footer a,
 footer p {
     margin: 0;
     line-height: 1.5;
 }
 
+/* List Styles */
 ul {
     margin: 0;
     padding: 0;

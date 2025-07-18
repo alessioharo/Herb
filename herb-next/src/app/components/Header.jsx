@@ -7,7 +7,7 @@ function Header() {
         <header>
             <Link href="/">
                 <img
-                    src="/images/Herb Logo.svg"
+                    src="/images/herb-logo.svg"
                     alt="Herb"
                     className="mainlogo"
                     style={{ cursor: 'pointer', display: 'block'}}

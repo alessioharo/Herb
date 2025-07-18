@@ -2,14 +2,14 @@
 
 /* Colors */
 :root {
-  --herb-green: #99EC4E;
-  --herb-dark-green: #73c225;
-  --herb-light-green: #EDFFDA;
+  --herb-green: #BAF064;
+  --dark-accent: #83da54;
+  --light-accent: #ffffff;
 }
 
 /* Website Background Styles */
 body {
-  background-color: var(--herb-light-green);
+  background-color: var(--light-accent);
 }
 
 /* Main Styles - Text */
@@ -35,7 +35,7 @@ main {
 header { text-align: center; }
 footer {
     color: white;
-    background-color: var(--herb-dark-green);
+    background-color: var(--dark-accent);
     margin-top: 15.5px;
     padding: 25px;
 }
@@ -80,9 +80,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: var(--herb-dark-green);
+  background-color: var(--dark-accent);
 }
 
 nav a.active {
-  background-color: var(--herb-dark-green);
+  background-color: var(--dark-accent);
 }

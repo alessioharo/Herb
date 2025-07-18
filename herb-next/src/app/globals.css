@@ -37,6 +37,16 @@ main {
   opacity: 1;
 }
 
+.wip-image{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15.5px;
+    margin-bottom: 15.5px;
+}
+
 /* Header and Footer Styles */
 header { text-align: center; }
 footer {

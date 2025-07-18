@@ -1,7 +1,12 @@
 export default function Shop() {
   return (
     <main>
-      <p>Shops - Coming soon.</p>
+      <p>Shop - Coming soon.</p>
+      <img
+        src="/images/work-in-progress.png"
+        alt="Work in progress. Check back soon!"
+        className="wip-image"
+      />
     </main>
   );
 }

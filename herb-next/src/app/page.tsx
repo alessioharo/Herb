@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <main>
-        <p>Home - Coming soon.</p>
+        <img
+        src="/images/work-in-progress.png"
+        alt="Work in progress. Check back soon!"
+        className="wip-image"
+      />
     </main>
   );
 }

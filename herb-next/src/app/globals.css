@@ -29,6 +29,12 @@ main {
     margin-left: auto;
     margin-top: 25px;
     margin-bottom: 15.5px;
+    opacity: 0;
+    transition: opacity 0.55s ease-in;
+}
+
+.fade-in {
+  opacity: 1;
 }
 
 /* Header and Footer Styles */

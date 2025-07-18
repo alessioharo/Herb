@@ -1,16 +1,23 @@
 "use client";
 import '../globals.css';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 function Header() {
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        setVisible(true);
+    }, []);
+
     return (
         <header>
             <Link href="/">
                 <img
                     src="/images/herb-logo.svg"
                     alt="Herb"
-                    className="mainlogo"
-                    style={{ cursor: 'pointer', display: 'block'}}
+                    className={`mainlogo${visible ? ' fade-in' : ''}`}
+                    style={{ cursor: 'pointer', display: 'block' }}
                 />
             </Link>
         </header>

@@ -1,10 +1,9 @@
 @import "tailwindcss";
 
-/* Colors */
 :root {
   --herb-green: #BAF064;
-  --dark-accent: #83da54;
-  --light-accent: #ffffff;
+  --dark-accent: #83DA54;
+  --light-accent: #FFFFFF;
 }
 
 /* Website Background Styles */
@@ -74,7 +73,6 @@ li {
 }
 
 /* Navigation Styles */
-
 nav {
   width: 255px;
   margin: 10px auto;

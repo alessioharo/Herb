@@ -5,7 +5,7 @@ function Footer() {
         <main>
             <footer>
                 <a href= "mailto:herbgreencat@gmail.com">Contact Herb</a>
-                <p>Herb created by Alessio Haro</p>                   
+                <p>Herb created by Alessio Haro</p>
             </footer>
         </main>
     );

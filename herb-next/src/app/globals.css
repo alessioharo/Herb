@@ -14,9 +14,14 @@ body {
 /* Main Styles - Text */
 main {
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  font-weight: regular;
   text-align: center;
   color: black;
+}
+
+.disclaimer {
+  margin-top: 25px;
+  font-weight: lighter;
 }
 
 /* Main Styles - Main Logo */
@@ -88,6 +93,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 12pt;
+  font-weight: bold;
   border-radius: 25px;
   padding: 12px 15px;
   transition: background-color 0.3s ease;
@@ -99,4 +105,52 @@ nav a:hover {
 
 nav a.active {
   background-color: var(--dark-accent);
+}
+
+/* Archive Comic Styles */
+.archive-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.archive-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.archive-logos {
+  max-width: 125px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  flex: 1 1 100px;
+  box-sizing: border-box;
+}
+
+.archive-label {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.archive-label-sub {
+  color: #808080;
+  font-weight: lighter;
+}
+
+@media (max-width: 600px) {
+  .archive-row {
+    gap: 8px;
+    flex-wrap: nowrap;
+  }
+  .archive-logos {
+    max-width: 30vw;
+    flex-basis: 30vw;
+  }
 }

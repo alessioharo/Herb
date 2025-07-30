@@ -16,8 +16,18 @@ datasource db {
 
 model Comic {
   id        Int      @id @default(autoincrement())
+  season    Int
+  episode   Int
   title     String
   date      DateTime
   imageUrl  String
-  createdAt DateTime @default(now())
+  panels    Panel[]
+}
+
+model Panel {
+  id        Int     @id @default(autoincrement())
+  comic     Comic   @relation(fields: [comicId], references: [id])
+  comicId   Int
+  panel     Int     
+  imageUrl  String
 }

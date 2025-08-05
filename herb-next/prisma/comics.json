@@ -1,0 +1,776 @@
+[
+    {
+        "season": 1,
+        "episode": 1,
+        "title": "Corporate Cat",
+        "date": "2020-03-21",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e01-cover.jpg",
+        "panelCount": 24,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e01-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 2,
+        "title": "Pizza Blacklist",
+        "date": "2020-03-28",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e02-cover.jpg",
+        "panelCount": 39,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e02-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 3,
+        "title": "Special Box",
+        "date": "2020-04-04",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e03-cover.jpg",
+        "panelCount": 36,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e03-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 4,
+        "title": "Houseplant Antics",
+        "date": "2020-04-11",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e04-cover.jpg",
+        "panelCount": 36,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e04-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 5,
+        "title": "Meditation Follies",
+        "date": "2020-04-18",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e05-cover.jpg",
+        "panelCount": 36,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e05-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 6,
+        "title": "Waterworks",
+        "date": "2020-04-25",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e06-cover.jpg",
+        "panelCount": 34,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e06-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 7,
+        "title": "Hotdog Hooligan",
+        "date": "2020-05-02",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e07-cover.jpg",
+        "panelCount": 36,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e07-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 8,
+        "title": "Chef Herb",
+        "date": "2020-05-09",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e08-cover.jpg",
+        "panelCount": 36,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e08-p{num}.jpg"
+    },
+    {
+        "season": 1,
+        "episode": 9,
+        "title": "Ice Cream Cash",
+        "date": "2020-05-16",
+        "imageUrl": "https://media.herbcomic.com/herb-s01-e09-cover.jpg",
+        "panelCount": 29,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s01-e09-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 1,
+        "title": "Surprise",
+        "date": "2020-07-17",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e01-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e01-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 2,
+        "title": "Conway",
+        "date": "2020-07-21",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e02-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e02-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 3,
+        "title": "Letter",
+        "date": "2020-07-24",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e03-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e03-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 4,
+        "title": "Camera",
+        "date": "2020-07-28",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e04-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e04-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 5,
+        "title": "Bookworm",
+        "date": "2020-07-31",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e05-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e05-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 6,
+        "title": "Pants",
+        "date": "2020-08-04",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e06-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e06-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 7,
+        "title": "Pizza",
+        "date": "2020-08-07",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e07-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e07-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 8,
+        "title": "Kidneys",
+        "date": "2020-08-11",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e08-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e08-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 9,
+        "title": "Juice",
+        "date": "2020-08-14",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e09-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e09-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 10,
+        "title": "Smile",
+        "date": "2020-08-18",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e10-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e10-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 11,
+        "title": "Moon",
+        "date": "2020-08-21",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e11-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e11-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 12,
+        "title": "Stop",
+        "date": "2020-08-25",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e12-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e12-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 13,
+        "title": "Clown",
+        "date": "2020-08-28",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e13-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e13-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 14,
+        "title": "Knives",
+        "date": "2020-09-01",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e14-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e14-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 15,
+        "title": "Crazy",
+        "date": "2020-09-04",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e15-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e15-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 16,
+        "title": "Brain",
+        "date": "2020-09-08",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e16-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e16-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 17,
+        "title": "Window",
+        "date": "2020-09-12",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e17-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e17-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 18,
+        "title": "Ransom",
+        "date": "2020-09-15",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e18-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e18-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 19,
+        "title": "Lime",
+        "date": "2020-09-18",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e19-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e19-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 20,
+        "title": "Sandwich",
+        "date": "2020-09-22",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e20-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e20-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 21,
+        "title": "Party",
+        "date": "2020-09-25",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e21-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e21-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 22,
+        "title": "Urinal",
+        "date": "2020-09-29",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e22-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e22-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 23,
+        "title": "Mascara",
+        "date": "2020-10-02",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e23-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e23-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 24,
+        "title": "Game",
+        "date": "2020-10-06",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e24-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e24-p{num}.jpg"
+    }, 
+    {
+        "season": 2,
+        "episode": 25,
+        "title": "Fall",
+        "date": "2020-10-09",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e25-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e25-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 26,
+        "title": "Newspaper",
+        "date": "2020-10-13",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e26-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e26-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 27,
+        "title": "Fan",
+        "date": "2020-10-16",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e27-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e27-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 28,
+        "title": "Clouds",
+        "date": "2020-10-20",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e28-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e28-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 29,
+        "title": "Plunger",
+        "date": "2020-10-23",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e29-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e29-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 30,
+        "title": "Door",
+        "date": "2020-10-27",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e30-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e30-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 31,
+        "title": "Candy",
+        "date": "2020-10-30",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e31-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e31-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 32,
+        "title": "Believe",
+        "date": "2020-11-03",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e32-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e32-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 33,
+        "title": "Bracelet",
+        "date": "2020-11-06",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e33-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e33-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 34,
+        "title": "Forest",
+        "date": "2020-11-03",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e34-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e34-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 35,
+        "title": "Pumpkin",
+        "date": "2020-11-13",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e35-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e35-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 36,
+        "title": "Race",
+        "date": "2020-11-17",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e36-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e36-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 37,
+        "title": "Seat",
+        "date": "2020-11-20",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e37-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e37-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 38,
+        "title": "Pie",
+        "date": "2020-11-24",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e38-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e38-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 39,
+        "title": "Family",
+        "date": "2020-11-26",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e39-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e39-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 40,
+        "title": "Leaves",
+        "date": "2020-11-30",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e40-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e40-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 41,
+        "title": "Chocolate",
+        "date": "2020-12-01",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e41-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e41-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 42,
+        "title": "Snowball",
+        "date": "2020-12-04",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e42-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e42-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 43,
+        "title": "Cookie",
+        "date": "2020-12-08",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e43-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e43-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 44,
+        "title": "Lights",
+        "date": "2020-12-11",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e44-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e44-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 45,
+        "title": "Enemy",
+        "date": "2020-12-15",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e45-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e45-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 46,
+        "title": "Mistletoe",
+        "date": "2020-12-18",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e46-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e46-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 47,
+        "title": "Snowman",
+        "date": "2020-12-22",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e47-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e47-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 48,
+        "title": "Baby",
+        "date": "2020-12-25",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e48-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e48-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 49,
+        "title": "Year",
+        "date": "2020-12-29",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e49-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e49-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 50,
+        "title": "Rival",
+        "date": "2021-01-01",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e50-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e50-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 51,
+        "title": "Color",
+        "date": "2021-01-05",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e51-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e51-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 52,
+        "title": "Stubborn",
+        "date": "2021-01-08",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e52-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e52-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 53,
+        "title": "Friends",
+        "date": "2021-01-12",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e53-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e53-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 54,
+        "title": "Ramen",
+        "date": "2021-01-15",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e54-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e54-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 55,
+        "title": "Timer",
+        "date": "2021-01-19",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e55-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e55-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 56,
+        "title": "Boo",
+        "date": "2021-01-22",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e56-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e56-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 57,
+        "title": "Files",
+        "date": "2021-01-25",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e57-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e57-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 58,
+        "title": "Lemon",
+        "date": "2021-01-29",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e58-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e58-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 59,
+        "title": "Yo-Yo",
+        "date": "2021-02-02",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e59-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e59-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 60,
+        "title": "Salad",
+        "date": "2021-02-05",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e60-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e60-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 61,
+        "title": "Mailman",
+        "date": "2021-02-09",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e61-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e61-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 62,
+        "title": "Crush",
+        "date": "2021-02-12",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e62-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e62-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 63,
+        "title": "Advice",
+        "date": "2021-02-16",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e63-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e63-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 64,
+        "title": "Cousin",
+        "date": "2021-02-19",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e64-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e64-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 65,
+        "title": "Tree",
+        "date": "2021-02-23",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e65-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e65-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 66,
+        "title": "Festival",
+        "date": "2021-02-26",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e66-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e66-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 67,
+        "title": "Alcohol",
+        "date": "2021-03-02",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e67-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e67-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 68,
+        "title": "Forgetful",
+        "date": "2021-03-05",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e68-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e68-p{num}.jpg"
+    },
+    {
+        "season": 2,
+        "episode": 69,
+        "title": "Birthday",
+        "date": "2021-03-14",
+        "imageUrl": "https://media.herbcomic.com/herb-s02-e69-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s02-e69-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 1,
+        "title": "Sign",
+        "date": "2023-08-01",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e01-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e01-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 2,
+        "title": "Rufus",
+        "date": "2023-08-08",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e02-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e02-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 3,
+        "title": "Transcript",
+        "date": "2023-08-15",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e03-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e03-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 4,
+        "title": "Sign",
+        "date": "2023-08-22",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e04-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e04-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 5,
+        "title": "Computer",
+        "date": "2023-08-29",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e05-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e05-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 6,
+        "title": "Test",
+        "date": "2023-09-05",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e06-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e06-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 7,
+        "title": "Bomb",
+        "date": "2023-09-13",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e07-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e07-p{num}.jpg"
+    },
+    {
+        "season": 3,
+        "episode": 8,
+        "title": "Detective",
+        "date": "2023-10-17",
+        "imageUrl": "https://media.herbcomic.com/herb-s03-e08-cover.jpg",
+        "panelCount": 4,
+        "panelUrlPattern": "https://media.herbcomic.com/herb-s03-e08-p{num}.jpg"
+    }
+]

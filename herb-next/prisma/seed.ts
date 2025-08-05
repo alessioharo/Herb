@@ -1,25 +1,46 @@
-import { PrismaClient } from '../src/generated/prisma';
 
+import comicsData from './comics.json';
+import { PrismaClient } from '../src/generated/prisma';
 const prisma = new PrismaClient();
 
-async function main() {
-  const comic1 = await prisma.comic.create({
-    data: {
-      season: 1,
-      episode: 1,
-      title: 'Corporate Cat',
-      date: new Date('2020-03-21'),
-      imageUrl: 'https://media.herbcomic.com/herb-s01-e01-cover.jpg',
-      panels: {
-        create: Array.from({ length: 24 }, (_, i) => ({
-          panel: i + 1,
-          imageUrl: `https://media.herbcomic.com/herb-s01-e01-p${String(i + 1).padStart(2, '0')}.jpg`,
-        })),
-      },
-    },
-  });
+type ComicSeed = {
+  season: number;
+  episode: number;
+  title: string;
+  date: string;
+  imageUrl: string;
+  panels?: { panel: number; imageUrl: string }[];
+  panelCount?: number;
+  panelUrlPattern?: string;
+};
 
-  console.log('Seeded comics:', comic1);
+async function main() {
+
+  await prisma.panel.deleteMany();
+  await prisma.comic.deleteMany();
+
+  for (const comic of comicsData as ComicSeed[]) {
+    let panels = comic.panels ?? [];
+    if ((!panels || panels.length === 0) && comic.panelCount && comic.panelUrlPattern) {
+      panels = Array.from({ length: comic.panelCount }, (_, i) => ({
+        panel: i + 1,
+        imageUrl: comic.panelUrlPattern!.replace('{num}', String(i + 1).padStart(2, '0'))
+      }));
+    }
+    await prisma.comic.create({
+      data: {
+        season: comic.season,
+        episode: comic.episode,
+        title: comic.title,
+        date: new Date(comic.date),
+        imageUrl: comic.imageUrl,
+        panels: {
+          create: panels
+        }
+      }
+    });
+  }
+  console.log('Seeded all comics!');
 }
 
 main()

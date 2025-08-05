@@ -1,5 +1,5 @@
-
 import { PrismaClient } from '@/generated/prisma';
+import ComicHeader from '../../components/ComicHeader';
 
 const prisma = new PrismaClient();
 
@@ -14,14 +14,12 @@ export default async function Season1Page() {
     <main>
       <div>
         {comics.map((comic: any) => (
-          <div key={comic.id} className="flex flex-col items-center">
-            <img
-              src={comic.imageUrl}
-              alt={comic.title + ' cover'}
-              className="w-full max-w-xs rounded shadow mb-2"
+          <div key={comic.id} className="flex flex-col items-start mb-8">
+            <ComicHeader
+              season={comic.season}
+              title={comic.title}
+              date={comic.date}
             />
-            <h2 className="text-lg font-semibold mt-2">{comic.title}</h2>
-            <p className="text-gray-500">Episode {comic.episode}</p>
           </div>
         ))}
       </div>

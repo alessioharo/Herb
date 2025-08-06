@@ -1,6 +1,6 @@
 
 import comicsData from './comics.json';
-import { PrismaClient } from '@/generated/prisma';
+import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 type ComicSeed = {

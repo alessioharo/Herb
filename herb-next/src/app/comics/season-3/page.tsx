@@ -1,11 +1,11 @@
 import { PrismaClient } from '@/generated/prisma';
-import Season1 from './Season1';
+import Season3 from './Season3';
 
 const prisma = new PrismaClient();
 
-export default async function Season1Page() {
+export default async function Season3Page() {
   const comics = await prisma.comic.findMany({
-    where: { season: 1 },
+    where: { season: 3 },
     orderBy: [{ episode: 'asc' }],
     include: { panels: true },
   });
@@ -18,7 +18,7 @@ export default async function Season1Page() {
 
   return (
     <main>
-      <Season1 comics={clientComics} />
+      <Season3 comics={clientComics} />
     </main>
   );
 }

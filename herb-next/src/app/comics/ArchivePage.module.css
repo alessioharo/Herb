@@ -52,12 +52,12 @@
 /* Comic: Title and Date */
 .comicTitle {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--website-black);
 }
 .comicDate {
   font-weight: lighter;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--website-black);
 }
 /* New Comic Info Stack */
@@ -181,6 +181,8 @@
 @media (max-width: 768px) {
   .panelImageS1 {
     width: calc(100% - 1rem); /* Full width for smaller screens */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 

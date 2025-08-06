@@ -1,0 +1,72 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainText {
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    font-weight: regular;
+    font-size: 1.25rem;
+    color: var(--website-black);
+    text-align: center; /* Center the text content */
+}
+
+.subText {
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    font-weight: lighter;
+    font-size: 1.25rem;
+    color: var(--website-grey);
+    text-align: center; /* Center the text content */
+}
+
+.mainImage {
+    width: 10rem;
+    height: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--herb-green);
+    padding: .75rem;
+    margin: 1rem;
+    border-radius: 3rem;
+}
+
+.button {
+    background-color: var(--herb-green);
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--dark-accent);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3rem;
+    transition: background-color 0.3s ease;
+}

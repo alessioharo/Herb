@@ -4,10 +4,6 @@ import Link from 'next/link';
 export default function Comics() {
   return (
     <main>
-      <p className="disclaimer">
-        New episodes of Herb are coming soon.<br /> 
-        In the meantime, Herb seasons 1-3 are available to enjoy.
-      </p>
       <div className="archive-row">
         <div className="archive-col">
           <Link href="/comics/season-1">

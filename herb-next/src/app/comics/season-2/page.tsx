@@ -1,6 +1,7 @@
 import { PrismaClient, Prisma } from '@/generated/prisma';
 import Season2 from './Season2';
 
+export const dynamic = "force-dynamic";
 const prisma = new PrismaClient();
 
 export default async function Season2Page() {

@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'; // Ensure this route is always dynamic
+
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@/generated/prisma';
 

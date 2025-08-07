@@ -1,4 +1,4 @@
-import { PrismaClient, Prisma } from '@/generated/prisma';
+import { PrismaClient, Prisma } from '@prisma/client';
 import Season1 from './Season1';
 
 export const dynamic = "force-dynamic";

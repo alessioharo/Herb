@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center; /* Center text horizontally */
     align-items: center; /* Center text vertically */
-    font-weight: regular;
+    font-weight: bold;
     font-size: 1.25rem;
     color: var(--website-black);
     text-align: center; /* Center the text content */

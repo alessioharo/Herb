@@ -1,4 +1,3 @@
-
 import comicsData from './comics.json';
 import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
@@ -15,10 +14,18 @@ type ComicSeed = {
 };
 
 async function main() {
+  console.log('Starting seed script...');
 
+  console.log('Deleting all panels...');
   await prisma.panel.deleteMany();
-  await prisma.comic.deleteMany();
+  console.log('Deleted all panels.');
 
+  console.log('Deleting all comics...');
+  await prisma.comic.deleteMany();
+  console.log('Deleted all comics.');
+
+  console.log('Preparing to seed comics...');
+  let count = 0;
   for (const comic of comicsData as ComicSeed[]) {
     let panels = comic.panels ?? [];
     if ((!panels || panels.length === 0) && comic.panelCount && comic.panelUrlPattern) {
@@ -39,15 +46,18 @@ async function main() {
         }
       }
     });
+    count++;
+    console.log(`Seeded comic: Season ${comic.season}, Episode ${comic.episode}`);
   }
-  console.log('Seeded all comics!');
+  console.log(`Seeded all comics! Total: ${count}`);
 }
 
 main()
   .catch((e) => {
-    console.error(e);
+    console.error('Error in seed script:', e);
     process.exit(1);
   })
   .finally(async () => {
     await prisma.$disconnect();
+    console.log('Disconnected Prisma client.');
   });

@@ -1,32 +1,33 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import styles from './ComicPage.module.css';
 
 export default function Comics() {
   return (
     <main>
-      <div className="archive-row">
-        <div className="archive-col">
-          <Link href="/comics/season-1">
-            <Image src="/images/herb-s1-link.png" alt="Herb Season 1" className="archive-logos" width={125} height={125} />
-          </Link>
-          <div className="archive-label">Season 1<br />
-            <div className="archive-label-sub">2020</div>
+      <div className={styles.archiveRow}>
+        <div className={styles.archiveCol}>
+          <Image src="/images/herb-s1-archive-banner.png" alt="Herb Season 1" className={styles.archiveLogos} width={125} height={125} />
+          <div className={styles.buttonContainer}>
+            <a href="/comics/season-1" className={styles.button}>
+              season 1
+            </a>
           </div>
         </div>
-        <div className="archive-col">
-          <Link href="/comics/season-2">
-            <Image src="/images/herb-s2-link.png" alt="Herb Season 2" className="archive-logos" width={125} height={125} />
-          </Link>
-          <div className="archive-label">Season 2
-            <div className="archive-label-sub">2020-2021</div>
+        <div className={styles.archiveCol}>
+          <Image src="/images/herb-s2-archive-banner.png" alt="Herb Season 2" className={styles.archiveLogos} width={125} height={125} />
+          <div className={styles.buttonContainer}>
+            <a href="/comics/season-2" className={styles.button}>
+              season 2
+            </a>
           </div>
         </div>
-        <div className="archive-col">
-          <Link href="/comics/season-3">
-            <Image src="/images/herb-s3-link.png" alt="Herb Season 3" className="archive-logos" width={125} height={125} />
-          </Link>
-          <div className="archive-label">Season 3
-            <div className="archive-label-sub">2023</div>
+        <div className={styles.archiveCol}>
+          <Image src="/images/herb-s3-archive-banner.png" alt="Herb Season 3" className={styles.archiveLogos} width={125} height={125} />
+          <div className={styles.buttonContainer}>
+            <a href="/comics/season-3" className={styles.button}>
+              season 3
+            </a>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ function Header() {
         <header>
             <Link href="/">
                 <img
-                    src="/images/herb-logo-outline.svg"
+                    src="/images/herb-logo-outline.png"
                     alt="Herb"
                     className={`mainlogo${visible ? ' fade-in' : ''}`}
                     style={{ cursor: 'pointer', display: 'block' }}

@@ -23,7 +23,7 @@ main {
   font-family: 'Inter', sans-serif;
   font-weight: regular;
   text-align: center;
-  color: black;
+  color: var(--website-black);
 }
 
 /* Main Styles - Main Logo */
